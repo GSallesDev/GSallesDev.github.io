@@ -1,8 +1,13 @@
 ---
 layout: post
-title: Representation of polynomials using base-10 numerals
+title: "Representation of polynomials using base-10 numerals"
+
+categories: [Notes, Math]
+tags: [mathematics]
+
 math: true
 ---
+
 I have recently been studying methods for factoring polynomials into binomials, and I noticed an interesting connection to the decimal numeral system.
 
 Given any polynomial of degree $$n$$:
