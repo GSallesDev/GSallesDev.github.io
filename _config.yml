@@ -9,3 +9,19 @@ show_excerpts: true
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: projects
+
+header_pages:
+  - about.md
+  - projects.md

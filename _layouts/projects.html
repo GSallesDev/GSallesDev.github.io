@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+<article class="post">
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    {% if page.tagline %}<p class="post-meta">{{ page.tagline }}</p>{% endif %}
+    <p>
+      {% if page.repo %}<a href="{{ page.repo }}">Code</a>{% endif %}
+      {% if page.demo %}{% if page.repo %} · {% endif %}<a href="{{ page.demo }}">Demo</a>{% endif %}
+      {% if page.post %}{% if page.repo or page.demo %} · {% endif %}<a href="{{ page.post | relative_url }}">Article</a>{% endif %}
+    </p>
+    {% if page.stack %}<p class="post-meta">{{ page.stack | join: " · " }}</p>{% endif %}
+  </header>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+</article>
