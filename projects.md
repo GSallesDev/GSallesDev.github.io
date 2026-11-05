@@ -4,7 +4,7 @@ title: Projects
 permalink: /projects/
 ---
 
-{% assign lista = site.projetos | sort: "order" %}
+{% assign lista = site.projects | sort: "order" %}
 {% for p in lista %}
 <div style="margin-bottom: 2rem;">
   {% if p.cover %}
