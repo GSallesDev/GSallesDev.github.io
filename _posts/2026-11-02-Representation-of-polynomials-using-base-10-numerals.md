@@ -51,3 +51,7 @@ which results in $$(3, 97)$$, but if we follow this process, we would arrive at 
 
 
 I am providing a link to my attempt at implementing such a system, though it is still a work in progress. [base 10 representation](https://github.com/GSallesDev/CS/blob/main/math/polynomials/base10_representation.py)
+
+---
+
+© Gustavo Henrique de Sales Silva. Todos os direitos reservados.
