@@ -73,7 +73,7 @@ $$
 
 ---
 Fiz uma pequena implementação do CMNDF, utilizando FFT
-https://github.com/GSallesDev/CS/blob/main/math/signal/cmndf.py
+[CMNDF](https://github.com/GSallesDev/CS/blob/main/math/signal/cmndf.py)
 
 Espero que tenha gostado.
 
