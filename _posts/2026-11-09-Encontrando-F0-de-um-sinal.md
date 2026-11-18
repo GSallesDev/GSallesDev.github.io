@@ -10,6 +10,7 @@ math: true
 Estudo há um tempo aspectos da síntese de voz cantada, inspirado em alguns UTAUs, comecei a implementar um pequeno sistema TD-PSOLA, e um dos aspectos fundamentais do mesmo é a determinação da F0 do sample do voice-bank. 
 
 E para este existe um método interessante, imagine uma sinal contínuo, para exemplo, usemos uma onda puramente periódica, sendo a frequência o inverso do período, e o período, a menor translação da função que deixe-a exatamente como era.
+
 <p align="center">
 <img src="{{ site.baseurl }}/assets/images/posts/2026-11-09-wave-function-period-frequency.png">
 </p>
