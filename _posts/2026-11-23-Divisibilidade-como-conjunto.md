@@ -9,13 +9,17 @@ math: true
 ---
 
 Uma propriedade interessante dos números inteiros, observe, estes são os múltiplos de $$2$$.
+
 $$
 \cdots -8, -6, -4, -2, 0, 2, 4, 6, 8, \cdots
 $$
+
 Estes são múltiplos de $$8$$
+
 $$
 \cdots -16, -8, 0, 8, 16 \cdots 
 $$
+
 Percebe-se que todos os múltiplos de $$8$$, também são múltiplos de $$2$$. E esta propriedade que vamos explorar hoje, e se ela generaliza para quaisquer anéis.
 
 Todos os múltiplos inteiros de $$d \in \mathbb{Z}$$, denotados como $$d\mathbb{Z}$$ ou $$(d)$$, chamado de ideal de $$d$$, é definido como:
@@ -23,18 +27,22 @@ Todos os múltiplos inteiros de $$d \in \mathbb{Z}$$, denotados como $$d\mathbb{
 $$
 d\mathbb{Z}= \left\{dk \bigm| k \in \mathbb{Z}\right\} = (d)
 $$
+
 Propomos:
 
 $$
 2 | 8 \iff 8\mathbb{Z} \subseteq 2\mathbb{Z}
 $$
+
 ---
 
 Vamos explorar esta propriedade.
 Se temos que 
+
 $$
 d|n \iff (n) \subseteq (d), \qquad \boxed{n\mathbb{Z} \subseteq d\mathbb{Z}}
 $$
+
 Isto é, $$d$$ divide $$n$$ se e somente se o ideal gerado por $$n$$, for um subconjunto do ideal gerado por $$d$$.
 
 Esta seria uma perspectiva interessante de se observar a divisão, assim a generalizando em uma propriedade mais ampla. 
@@ -43,6 +51,7 @@ Mas primeiramente vamos a provar a proposição.
 Na direção $$d|n \implies (n) \subseteq (d)$$
 
 Suponha que $$d$$ divide $$n$$ e $$a$$ é um elemento do ideal gerado por $$n$$. Provar $$a$$ é um elemento gerado pelo ideal de $$d$$ provaria a suposição.
+
 Pela definição, $$d$$ dividir $$n$$ implicaria a existência de um numero $$k \in \mathbb{Z}$$ tal que $$n = dk$$.
 E $$a$$ ser um elemento gerado pelo ideal de $$n$$, implicaria existir um numero $$l \in \mathbb{Z}$$, tal que $$a = nl$$
 Então assim $$a = dkl \in (d)$$ $$\square$$
