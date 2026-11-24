@@ -31,7 +31,7 @@ $$
 Propomos:
 
 $$
-2 | 8 \iff 8\mathbb{Z} \subseteq 2\mathbb{Z}
+2 \mid 8 \iff 8\mathbb{Z} \subseteq 2\mathbb{Z}
 $$
 
 ---
@@ -40,7 +40,7 @@ Vamos explorar esta propriedade.
 Se temos que 
 
 $$
-d|n \iff (n) \subseteq (d), \qquad \boxed{n\mathbb{Z} \subseteq d\mathbb{Z}}
+d \mid n \iff (n) \subseteq (d), \qquad \boxed{n\mathbb{Z} \subseteq d\mathbb{Z}}
 $$
 
 Isto é, $$d$$ divide $$n$$ se e somente se o ideal gerado por $$n$$, for um subconjunto do ideal gerado por $$d$$.
@@ -48,7 +48,7 @@ Isto é, $$d$$ divide $$n$$ se e somente se o ideal gerado por $$n$$, for um sub
 Esta seria uma perspectiva interessante de se observar a divisão, assim a generalizando em uma propriedade mais ampla. 
 
 Mas primeiramente vamos a provar a proposição.
-Na direção $$d|n \implies (n) \subseteq (d)$$
+Na direção $$d \mid n \implies (n) \subseteq (d)$$
 
 Suponha que $$d$$ divide $$n$$ e $$a$$ é um elemento do ideal gerado por $$n$$. Provar $$a$$ é um elemento gerado pelo ideal de $$d$$ provaria a suposição.
 
@@ -56,7 +56,7 @@ Pela definição, $$d$$ dividir $$n$$ implicaria a existência de um numero $$k 
 E $$a$$ ser um elemento gerado pelo ideal de $$n$$, implicaria existir um numero $$l \in \mathbb{Z}$$, tal que $$a = nl$$
 Então assim $$a = dkl \in (d)$$ $$\square$$
 
-Agora inversamente, $$(n) \subseteq (d) \implies  d|n$$
+Agora inversamente, $$(n) \subseteq (d) \implies  d \mid n$$
 
 Suponha que $$(n) \subseteq (d)$$, o que implica que $$n \in (n) \subseteq (d)$$
 
